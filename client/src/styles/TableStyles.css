@@ -1,0 +1,38 @@
+/* tableStyles.css */
+.container {
+    margin: 20px;
+    position: relative;
+    bottom: 190px;
+  }
+  
+  .table-prop {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
+  .table-prop td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .table-prop tr th {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #05ed90;; 
+    color: rgb(14, 14, 14);/* Optional: Add a background color for headers */
+  }
+
+  
+  input[type="text"]{
+    border: none;
+    outline: none;
+  }
+
+  input[type="checkbox"] {
+    width: 20px; /* Increase width */
+    height: 20px; /* Increase height */
+}

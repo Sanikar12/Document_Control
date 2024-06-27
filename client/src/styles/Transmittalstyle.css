@@ -1,0 +1,111 @@
+.container1 {
+  margin: 10px;
+  position: static;
+  
+ 
+}
+
+.tablespan1 {
+  width: 100%;
+  overflow-x: auto;
+  max-width: 2700px;
+  position:relative;
+  bottom:0px
+ /* Ensure horizontal scroll if content overflows */
+}
+
+.table-prop1 {
+  border-collapse: collapse;
+  width: 100%;
+  /* Ensures table stays within the container */
+}
+
+.Transmittal{
+  position: relative;
+  bottom: 10px;
+}
+.table-prop1 th,
+.table-prop1 td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-prop1 th {
+  background-color: #05ed90;;
+  color: rgb(13, 13, 14);
+  text-align: center;
+  position: sticky; /* Makes header sticky */
+  top: 0; /* Ensures it stays at the top */
+  z-index: 1; /* Ensures it is above the table body */
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  font-size: 14px; /* Increase font size */
+  padding: 8px; /* Increase padding */
+}
+
+.button-select {
+  border: none;
+  background: none;
+  color: blue;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #063064;
+}
+
+.button-select:hover {
+  text-decoration: underline;
+}
+
+/* Ensure the modal body is scrollable if content overflows */
+.custom-modal .modal-content {
+  background-color: #ffffff; /* Set a white background color for the modal content */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+  position:static;
+  bottom: 40px;
+}
+
+.custom-modal .modal-dialog {
+  margin: 0 auto;
+  max-width: 80%; 
+  position: static;
+  top: 50px;/* Adjust modal width as needed */
+}
+
+.custom-modal .modal-body {
+  max-height: 500px; /* Adjust max height of modal body */
+  overflow-y: auto;
+  position: relative;
+  top: 20px;
+}
+
+.custom-modal .modal-title {
+  color: #063064; /* Optional: Modify modal title color */
+}
+
+.doneButton{
+padding-bottom: 20;
+
+position: relative;
+bottom: 7px;
+left: 1070px;
+
+}
+.custom-modal .modal-footer {
+  justify-content: space-between; /* Optional: Adjust alignment of modal footer */
+}
+
+.Button2 {
+  position: sticky;
+  left: 1000px;
+  bottom: 20px;
+}
+
+
