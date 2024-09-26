@@ -1,0 +1,92 @@
+.register-cont{
+    position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .alertMessage{
+    position:absolute;
+    top:40px;
+  }
+  .register-box{
+      width: 30%;
+      height: 60%;
+      border: 1px solid rgb(2, 2, 2);
+  }
+  
+  .registerhead{
+      border-bottom: 3px solid rgb(6, 10, 12);
+  }
+  .registerhead>p{
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: rgb(4, 5, 6);
+      font: 600 1.5vmax "Roboto";
+      
+  }
+  
+  .registerForm{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 80%;
+      /* margin: auto; */
+      padding: 1vmax;
+      justify-content: space-evenly;
+      
+    
+  }
+  
+  .registerEmail ,.registerPassword,.registerName{
+      width: 90%;
+      display: flex;
+      justify-content: baseline;
+      padding: 5px;
+    /* border: 1px solid black; */
+  }
+  
+  /* svg{
+      margin-left: 15px;
+      color: black;
+  } */
+  
+  .registerEmail>input , 
+  .registerPassword>input,
+  .registerName>input{
+      width: 95%;
+      margin-left: 10px;
+      border-bottom: 3px solid skyblue;
+      font: 300 0.9vmax cursive;
+      outline: none;
+  }
+  
+  .registerForm > a {
+      color: rgba(0, 0, 0, 0.651);
+      text-decoration: none;
+      align-self: flex-end;
+      transition: all 0.5s;
+      font: 500 0.8vmax "Gill Sans";
+    }
+    .registerForm > a:hover {
+      color: black;
+    }
+  
+    .registerBtn{
+      border: none;
+    background-color: rgb(37, 12, 199);
+    color: rgba(0, 0, 0, 0.651);;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+    }
+    .registerBtn:hover{
+      background-color: rgb(9, 89, 118);
+    }

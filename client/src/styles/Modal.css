@@ -1,131 +1,56 @@
 /* Transmittalstyle.css */
-.modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    outline: none;
-    width: 100%;
-    max-width: 5000px;
-    max-height: 800px;
-    height: 70%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-  }
-  
-  .modal-overlay {
-    background-color: rgba(0, 0, 0, 0.75);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;/* Transmittalstyle.css */
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  outline: none;
-  width: 80%;
-  max-width: 600px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+
+/* Style the overall modal */
+.custom-modal {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
-.modal-overlay {
-  background-color: rgba(0, 0, 0, 0.75);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
+/* Style the modal content */
+.custom-modal .modal-content {
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
+/* Style the modal header */
+.custom-modal .modal-header {
+  background-color: #1A0F79; /* Deep blue background */
+  color: #fff; /* White text */
+  border-bottom: none; /* No bottom border */
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
 }
 
-.button-select {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
+/* Style the modal title */
+.custom-modal .modal-title {
+  font-size: 1.5rem; /* Larger title font size */
+  font-weight: bold; /* Bold title text */
 }
 
-.button-select:hover {
-  background-color: #0056b3;
+/* Style the modal body */
+.custom-modal .modal-body {
+  padding: 20px; /* Increased padding */
 }
 
-.container1 {
-  padding: 20px;
+/* Style the modal footer */
+.custom-modal .modal-footer {
+  background-color: #f0f0f0; /* Light gray background */
+  border-top: none; /* No top border */
+  border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+  padding: 10px 20px; /* Padding top and bottom */
 }
 
-.tablespan{
-position:relative;
-top: 6700px;
-    
-  overflow-x: auto;
+/* Additional styling for buttons inside the modal footer */
+.custom-modal .modal-footer button {
+  margin-right: 10px; /* Space between buttons */
+  padding: 8px 20px; /* Padding around buttons */
+  font-size: 1rem; /* Button font size */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #1A0F79; /* Deep blue background */
+  color: #fff; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
 }
 
-.table-prop1 {
-  width: 100%;
-  top: 500px;
-  border-collapse: collapse;
+.custom-modal .modal-footer button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
-
-ta
-
-.table-prop1 th, .table-prop1 td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-.table-prop1 th {
-  background-color: #f2f2f2;
-  text-align: left;
-}
-
-.input-field {
-  width: 100%;
-  padding: 6px;
-  margin: 4px 0;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  

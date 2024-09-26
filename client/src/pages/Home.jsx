@@ -1,9 +1,18 @@
-import { Navbar } from "../components/Navbar";
+import {Hnavbar} from "../components/HomeNav"
+import {Hero} from "../components/Hero"
+import {About} from "../components/About"
+import {Footer} from "../components/Footer"
+
 
 export const Home = () => {
     return <>
     
-    <h1>Hello Home Page</h1>;
+   <Hnavbar/>
+   <Hero/>
+   <About/>
+   <Footer/>
+
+
     </>
    
 

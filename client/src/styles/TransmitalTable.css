@@ -1,0 +1,67 @@
+.transmittable-container
+{
+  width: 100%;
+ margin-right: 10px;
+}
+
+.transmit-table {
+    border-collapse: collapse;
+    width: 95%; /* Adjust this to the desired width when sidebar is visible */
+    table-layout: auto;
+    margin-top: 40px;
+    margin-right: 20px; /* Adjusted margin for table positioning */
+  }
+  
+  .transmit-large-table-prop {
+    width: 110%; /* Adjust this to the desired width when sidebar is hidden */
+  }
+  
+  .transmit-table th,
+  .transmit-table td {
+    border: 1px solid black;
+    white-space: nowrap; /* Prevent text wrapping in cells */
+    padding: 10px;
+    align-items: center; /* Standard padding for cells */
+    height: 60px; /* Adjust this value to increase the height */
+  }
+  
+  .transmit-table th {
+    color: white;
+    background-color: #1A0F79;
+    font-size: 18px; /* Increased font size for header */
+    text-align: center; /* Center align header text */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-content img {
+    width: 15px; /* Adjust size as necessary */
+    margin-left: 30px; /* Space between text and image */
+  }
+  
+  .nav-middle-search-box {
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 50px; /* Adjust width as necessary */
+  }
+  
+  .nav-middle-search-box img:hover {
+    background-color: #ccc;
+  }
+  
+  svg {
+color: white;
+    margin-left: 100px;
+  }
+  
+  .header-icon-wrapper {
+    margin-left: 10px;
+  }
+  

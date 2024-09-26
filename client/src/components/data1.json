@@ -55,6 +55,62 @@
             "Transmital": "Transmital 3"
           }
         }
+      },
+      {
+        "id": 1,
+        "Key": "001",
+        "Project": "Project A",
+        "Category": "Category 1",
+        "DOCUMENT/DRAWING DESCRIPTION": "Description 1",
+        "Document Number": ["DOC1", "DOC2", "DOC3", "DOC4", "DOC5", "DOC6", "DOC7"],
+        "Prepared by": "John Doe",
+        "Remarks": "Remark 1",
+        "Target date1": "2024-06-01",
+        "Target date2": "2024-06-15",
+        "Target date3": "2024-06-30",
+        "Target date4": "2024-07-15",
+        "Completion %": "80%",
+        "Weighted Value": "0.8",
+        "Revisions": {
+          "Rev-0": {
+            "Date": "2024-05-01",
+            "Location": "Location 1",
+            "Prepared": "John Doe",
+            "Checked": "Jane Smith",
+            "Approved": "Jim Brown",
+            "Transmital": "Transmital 1"
+          },
+          "Rev-1": {
+            "Date": "2024-06-01",
+            "Location": "Location 2",
+            "Prepared": "Alice Green",
+            "Checked": "Bob White",
+            "Approved": "Charlie Black",
+            "Transmital": "Transmital 2"
+          },
+          "Rev-2": {
+            "Date": "2024-07-01",
+            "Location": "Location 3",
+            "Prepared": "Emily Johnson",
+            "Checked": "Frank Brown",
+            "Approved": "Grace Lee",
+            "Transmital": "Transmital 3"
+          },
+          "Rev-3":{
+
+          },
+          "Rev-4":{
+
+          },
+          "Rev-8": {
+            "Date": "2024-07-01",
+            "Location": "Location 3",
+            "Prepared": "Emily Johnson",
+            "Checked": "Frank Brown",
+            "Approved": "Grace Lee",
+            "Transmital": "Transmital 3"
+          }
+        }
       }
     ]
   }

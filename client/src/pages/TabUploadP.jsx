@@ -1,0 +1,20 @@
+import { useState } from "react";
+import { Navbar } from "../components/Navbar";
+import { Slidebar } from "../components/slide";
+import { UpdateTable } from "../components/UploadTable";
+import "../styles/TableMain.css";
+
+export const UploadTab = () => {
+  const [sidebar, setSidebar] = useState(true);
+  return (
+    <>
+      <Navbar setSidebar={setSidebar} />
+      <Slidebar sidebar={sidebar} />
+      <div
+        className={`table-view-cont ${sidebar ? "reduce-table-view-cont" : ""}`}
+      >
+        <UpdateTable sidebar={sidebar} />
+      </div>
+    </>
+  );
+};
